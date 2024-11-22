@@ -1,0 +1,19 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/cpulab/CPU_single/CPU_single.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sim_1/new/CPU_test.v,1732107518,verilog,,,,CPU_test,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/CPU_top.v,1732108816,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Control_Unit.v,,CPU_top,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Control_Unit.v,1731855432,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Extend_Unit.v,,Control_Unit,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Extend_Unit.v,1731820648,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Ins_Memory.v,,Extend_Unit,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Ins_Memory.v,1731856504,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Memory.v,,Ins_Memory,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Memory.v,1732092104,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Mul_3to1.v,,Memory,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Mul_3to1.v,1731759750,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer.v,,Mul_3to1,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer.v,1731735080,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer_5.v,,Multiplexer,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/Multiplexer_5.v,1731756754,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/PC.v,,Multiplexer_5,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/PC.v,1731819112,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/PC_beq.v,,PC,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/PC_beq.v,1731828904,verilog,,F:/cpulab/ALU实验/RegFile.v,,PC_beq,,,,,,,,
+D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/jump_PC.v,1731757722,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sim_1/new/CPU_test.v,,jump_PC,,,,,,,,
+F:/cpulab/ALU实验/ALU.v,1731853386,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/CPU_top.v,,ALU,,,,,,,,
+F:/cpulab/ALU实验/RegFile.v,1731849046,verilog,,D:/cpulab/CPU_single/CPU_single.srcs/sources_1/new/jump_PC.v,,RegFile,,,,,,,,

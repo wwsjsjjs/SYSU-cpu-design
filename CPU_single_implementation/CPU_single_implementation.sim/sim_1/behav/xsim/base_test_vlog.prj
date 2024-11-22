@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CPU_single_implementation.srcs/sources_1/imports/ALU实验/ALU.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/CPU_top.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Control_Unit.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Extend_Unit.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Ins_Memory.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Key.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/LED_trans.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Memory.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Mul_3to1.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Multiplexer.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/Multiplexer_5.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/PC.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/PC_beq.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/imports/ALU实验/RegFile.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/base_top.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/jump_PC.v" \
+"../../../../CPU_single_implementation.srcs/sim_1/new/base_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
