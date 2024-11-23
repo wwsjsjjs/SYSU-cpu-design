@@ -37,7 +37,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="406"/>
+    <Option Name="WTXSimLaunchSim" Val="475"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -70,6 +70,13 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="F:/cpulab/ALU实验/ALU.v"/>
           <Attr Name="ImportTime" Val="1731853386"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ALU_ctr.v">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -221,7 +228,6 @@
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="base_top"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -385,17 +391,27 @@
       <File Path="$PSRCDIR/utils_1/imports/impl_1/base_top_routed.dcp">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PRUNDIR/impl_1/base_top_routed.dcp"/>
-          <Attr Name="ImportTime" Val="1732266214"/>
+          <Attr Name="ImportTime" Val="1732334319"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedInSteps" Val="impl_1"/>
           <Attr Name="AutoDcp" Val="1"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/utils_1/imports/synth_1/CPU_top.dcp">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PRUNDIR/synth_1/CPU_top.dcp"/>
+          <Attr Name="ImportTime" Val="1732292324"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedInSteps" Val="synth_1"/>
+          <Attr Name="AutoDcp" Val="1"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/utils_1/imports/synth_1/base_top.dcp">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PRUNDIR/synth_1/base_top.dcp"/>
-          <Attr Name="ImportTime" Val="1732266214"/>
+          <Attr Name="ImportTime" Val="1732336704"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedInSteps" Val="synth_1"/>

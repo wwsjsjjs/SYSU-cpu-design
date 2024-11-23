@@ -46,8 +46,8 @@ module base_top(
         .Button(CPU_CLK)
     );
     CPU_top CPU(
-        .CLK(button_CLK),
-//        .CLK(CPU_CLK),
+//        .CLK(button_CLK),
+        .CLK(CPU_CLK),
         .CLR(CLR),
         .PC_now(PC_now),
         .new_Addr(new_Addr),

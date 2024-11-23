@@ -18,11 +18,20 @@ module ALU(OP,A,B,F,ZF,CF,OF,SF,PF);
         case(OP)
             4'b0000:begin {C,F}=A+B; end //加法
             4'b0001:begin {C,F}=A-B; end //减法
-            4'b0010:begin F=A&B; end    //按位与
+            
+            
+            4'b0010:begin F=B<<A; end   //将B左移A位
+            
             4'b0011:begin F=A|B; end    //按位或
-            4'b0100:begin F=B<<A; end   //将B左移A位
+            4'b0100:begin F=A&B; end    //按位与
+            4'b0101:begin F=A<B?1:0; end //无符号比较
+            4'b0110:begin F=(((A<B) && (A[31] == B[31] )) ||( ( A[31] ==1 && B[31] == 0))) ?1:0; end //有符号比较
+            
+            4'b0111:begin F=A^B; end //异或
+            
+            
 //            4'b0101:begin F=A^B; end    //按位异或
-            4'b0110:begin F=A<B?1:0; end //按位或非 
+//            4'b0110:begin F=A<B?1:0; end //按位或非 
 //            4'b0111:begin F=A<B; end//A<B则F=1，否则F=0       
         endcase
         ZF = F==0;//F全为0，则ZF=1

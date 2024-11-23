@@ -88,11 +88,11 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/imports/ALUÊµÑé/ALU.v
+  D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/ALU_ctr.v
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/CPU_top.v
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/Control_Unit.v
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/Extend_Unit.v
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/Ins_Memory.v
-  D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/Key.v
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/LED_trans.v
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/Memory.v
   D:/cpulab/CPU_single_implementation/CPU_single_implementation.srcs/sources_1/new/Mul_3to1.v

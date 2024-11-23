@@ -1,6 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
 "../../../../CPU_single_implementation.srcs/sources_1/imports/ALUÊµÑé/ALU.v" \
+"../../../../CPU_single_implementation.srcs/sources_1/new/ALU_ctr.v" \
 "../../../../CPU_single_implementation.srcs/sources_1/new/CPU_top.v" \
 "../../../../CPU_single_implementation.srcs/sources_1/new/Control_Unit.v" \
 "../../../../CPU_single_implementation.srcs/sources_1/new/Extend_Unit.v" \

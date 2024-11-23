@@ -212,14 +212,21 @@ module CPU_top(
 //    PC_beq(input PC_now,input PC_add,output regPC_next);
     assign PC_now=PC_Addr[31:0];
     assign PC_add=out[31:0];
+    ALU_ctr ALU_ctr(
+        .opcode(opcode),
+        .func(func),
+        .ALUSrcA(ALUSrcA),
+        .ALUSrcB(ALUSrcB),
+        .ALUop(ALUop)
+        
+    );
     Control_Unit Ctr_Unit(
         .opcode(opcode),
         .func(func),
         .zero(zero),
         .sign(sign),
         .PCWre(PCWre),
-        .ALUSrcA(ALUSrcA),
-        .ALUSrcB(ALUSrcB),
+        
         .DBDataSrc(DBDataSrc),
         .RegWre(RegWre),
         .InsMemRW(InsMemRW),
@@ -227,8 +234,7 @@ module CPU_top(
         .mWR(mWR),
         .RegDst(RegDst),
         .ExtSel(ExtSel),
-        .PCSrc(PCSrc),
-        .ALUop(ALUop)
+        .PCSrc(PCSrc)
     );
 
     RegFile Reg(        // ‰»Î        

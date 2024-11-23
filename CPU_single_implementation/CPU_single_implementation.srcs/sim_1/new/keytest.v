@@ -25,9 +25,15 @@ module keytest(
     );
     reg CLK;
     reg button_CLK;
+    wire Button;
     initial begin
         CLK=0;
         button_CLK=1;
+        #10;CLK=1;#10; CLK=0;
+        #10;CLK=1;#10; CLK=0;
+        #10;CLK=1;#10; CLK=0;
+        #10;CLK=1;#10; CLK=0;
+        #10;CLK=1;#10; CLK=0;
         #10;CLK=1;#10; CLK=0;
         button_CLK=0;
         #10;CLK=1;#10; CLK=0;
