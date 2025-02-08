@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../ALU实验/ALU.v" \
+"../../../../CPU_single.srcs/sources_1/new/Control_Unit.v" \
+"../../../../CPU_single.srcs/sources_1/new/Extend_Unit.v" \
+"../../../../CPU_single.srcs/sources_1/new/Ins_Memory.v" \
+"../../../../CPU_single.srcs/sources_1/new/Memory.v" \
+"../../../../CPU_single.srcs/sources_1/new/Multiplexer.v" \
+"../../../../CPU_single.srcs/sources_1/new/Multiplexer_5.v" \
+"../../../../../ALU实验/RegFile.v" \
+"../../../../../ALU实验/Test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

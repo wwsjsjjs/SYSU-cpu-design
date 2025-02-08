@@ -1,0 +1,27 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/cpulab/project_mul_2/project_mul_2.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/CPU_test.v,1735032740,verilog,,,,CPU_test,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/Extend_test.v,1733128108,verilog,,,,Extend_test,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/Ins_test.v,1731815720,verilog,,,,Ins_test,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/Memory_test.v,1735052813,verilog,,,,Memory_test,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/ctr_test_mul.v,1735030831,verilog,,,,ctr_test_mul,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/temp_test.v,1733927674,verilog,,,,temp_test,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/imports/ALU实验/ALU.v,1734081018,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/ALU_ctr.v,,ALU,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/imports/ALU实验/RegFile.v,1731849046,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Reg_temp.v,,RegFile,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/ALU_ctr.v,1734066858,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/CPU_ctr_mul.v,,ALU_ctr,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/CPU_ctr_mul.v,1734083497,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/CPU_top.v,,CPU_ctr_mul,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/CPU_top.v,1734060448,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Extend_Unit.v,,CPU_top,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Extend_Unit.v,1734081013,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/IR.v,,Extend_Unit,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/IR.v,1734065681,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Ins_Memory.v,,IR,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Ins_Memory.v,1734059950,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Memory.v,,Ins_Memory,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Memory.v,1734081016,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/Memory_test.v,,Memory,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Mul_4to1.v,1734081011,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Multiplexer.v,,Mul_4to1,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Multiplexer.v,1734081007,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Multiplexer_5.v,,Multiplexer,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Multiplexer_5.v,1734081005,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/PC.v,,Multiplexer_5,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/PC.v,1731819112,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/PC_beq.v,,PC,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/PC_beq.v,1731828904,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/imports/ALU实验/RegFile.v,,PC_beq,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/Reg_temp.v,1734064980,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/jump_PC.v,,Reg_temp,,,,,,,,
+D:/cpulab/project_mul_2/project_mul_2.srcs/sources_1/new/jump_PC.v,1731757722,verilog,,D:/cpulab/project_mul_2/project_mul_2.srcs/sim_1/new/CPU_test.v,,jump_PC,,,,,,,,

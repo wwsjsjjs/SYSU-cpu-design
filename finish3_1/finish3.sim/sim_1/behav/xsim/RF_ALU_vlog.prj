@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"F:/cpulab/ALU实验/ALU.v" \
+"F:/cpulab/ALU实验/RegFile.v" \
+"F:/cpulab/ALU实验/RF_ALU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
