@@ -9,7 +9,7 @@
 
 流程图
 
-CPU_single为vivado单周期项目文件
+CPU_single——implementation为vivado单周期项目文件
 
 single_sort为vivado单周期CPU实现冒泡排序项目文件
 
