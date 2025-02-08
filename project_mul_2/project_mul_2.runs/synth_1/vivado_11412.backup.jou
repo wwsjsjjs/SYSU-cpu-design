@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Dec 13 17:52:44 2024
+# Process ID: 11412
+# Current directory: D:/cpulab/project_mul_2/project_mul_2.runs/synth_1
+# Command line: vivado.exe -log base_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_top.tcl
+# Log file: D:/cpulab/project_mul_2/project_mul_2.runs/synth_1/base_top.vds
+# Journal file: D:/cpulab/project_mul_2/project_mul_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source base_top.tcl -notrace

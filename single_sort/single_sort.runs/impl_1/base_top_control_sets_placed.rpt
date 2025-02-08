@@ -1,0 +1,173 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Dec  3 18:17:04 2024
+| Host         : LAPTOP-QAS5BNSD running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file base_top_control_sets_placed.rpt
+| Design       : base_top
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    95 |
+|    Minimum number of control sets                        |    95 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    20 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    95 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |    26 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    67 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              22 |           10 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              41 |           12 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            2061 |          798 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------------+---------------------+------------------+----------------+--------------+
+|  Clock Signal  |           Enable Signal          |   Set/Reset Signal  | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+----------------------------------+---------------------+------------------+----------------+--------------+
+| ~CLK_IBUF_BUFG |                                  |                     |                3 |              4 |         1.33 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_1[0]   | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_4[0]   | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[54][7]_i_2_0[0]      | CLR_IBUF            |                2 |              8 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_2[0]   | CLR_IBUF            |                2 |              8 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_5[0]   | CLR_IBUF            |                2 |              8 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_9[0]   | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[62][7]_i_2_0[0]      | CLR_IBUF            |                5 |              8 |         1.60 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_6[0]   | CLR_IBUF            |                4 |              8 |         2.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[42][7]_i_2_0[0]      | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_7[0]   | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_10[0]  | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_0[0]   | CLR_IBUF            |                4 |              8 |         2.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_11[0]  | CLR_IBUF            |                2 |              8 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_8[0]   | CLR_IBUF            |                4 |              8 |         2.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][4]_i_4_3[0]   | CLR_IBUF            |                2 |              8 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[30][7]_i_2_0[0]      | CLR_IBUF            |                3 |              8 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[10][7]_i_2_0[0]      | CLR_IBUF            |                2 |              8 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[26][7]_i_2_0[0]      | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[58][7]_i_2_0[0]      | CLR_IBUF            |                2 |              8 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[6][7]_i_2_0[0]       | CLR_IBUF            |                4 |              8 |         2.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[18][7]_i_2_0[0]      | CLR_IBUF            |                3 |              8 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[46][7]_i_2_0[0]      | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[14][7]_i_2_0[0]      | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[50][7]_i_2_0[0]      | CLR_IBUF            |                3 |              8 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[38][7]_i_2_0[0]      | CLR_IBUF            |                1 |              8 |         8.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[22][7]_i_2_0[0]      | CLR_IBUF            |                1 |              8 |         8.00 |
+| ~CPU_CLK_BUFG  | CPU/PC/PC_Addr[7]_i_1_n_0        | CLR_IBUF            |                5 |             13 |         2.60 |
+|  CLK_IBUF_BUFG |                                  |                     |                7 |             18 |         2.57 |
+|  CLK_IBUF_BUFG |                                  | sel                 |                6 |             20 |         3.33 |
+|  CLK_IBUF_BUFG |                                  | k/button_remain_low |                6 |             21 |         3.50 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_7_1[0]       | CLR_IBUF            |                7 |             24 |         3.43 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[104][7]_i_2_0[0]     | CLR_IBUF            |               10 |             24 |         2.40 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[12][7]_i_5_0[0]      | CLR_IBUF            |                8 |             24 |         3.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[12][7]_i_5_1[0]      | CLR_IBUF            |                7 |             24 |         3.43 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[120][7]_i_2_0[0]     | CLR_IBUF            |               11 |             24 |         2.18 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[12][7]_i_5_2[0]      | CLR_IBUF            |                6 |             24 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[20][7]_i_3_2[0]      | CLR_IBUF            |                8 |             24 |         3.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[20][7]_i_3_1[0]      | CLR_IBUF            |                9 |             24 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[0][7]_i_6_0[0]       | CLR_IBUF            |                7 |             24 |         3.43 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[20][7]_i_3_3[0]      | CLR_IBUF            |                9 |             24 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[0][7]_i_6_1[0]       | CLR_IBUF            |               11 |             24 |         2.18 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[0][7]_i_6_2[0]       | CLR_IBUF            |                9 |             24 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[0][7]_i_6_3[0]       | CLR_IBUF            |                9 |             24 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[28][7]_i_3_0[0]      | CLR_IBUF            |               10 |             24 |         2.40 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[28][7]_i_3_1[0]      | CLR_IBUF            |                9 |             24 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[28][7]_i_3_2[0]      | CLR_IBUF            |               10 |             24 |         2.40 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[36][7]_i_3_0[0]      | CLR_IBUF            |                6 |             24 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_7_0[0]       | CLR_IBUF            |                9 |             24 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_8_0[0]       | CLR_IBUF            |                9 |             24 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[72][7]_i_2_0[0]      | CLR_IBUF            |                7 |             24 |         3.43 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[88][7]_i_2_0[0]      | CLR_IBUF            |                7 |             24 |         3.43 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_6_1[0]       | CLR_IBUF            |                8 |             24 |         3.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_6_3[0]       | CLR_IBUF            |                8 |             24 |         3.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_7_2[0]       | CLR_IBUF            |                8 |             24 |         3.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_6_2[0]       | CLR_IBUF            |                8 |             24 |         3.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[4][7]_i_6_0[0]       | CLR_IBUF            |               10 |             24 |         2.40 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][31]_i_7_0[0]  | CLR_IBUF            |               12 |             32 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[100][7]_i_3_0[0]     | CLR_IBUF            |                9 |             32 |         3.56 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[32][7]_i_3_0[0]      | CLR_IBUF            |               12 |             32 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[0][7]_i_7_0[0]       | CLR_IBUF            |                9 |             32 |         3.56 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[0][7]_i_7_1[0]       | CLR_IBUF            |               14 |             32 |         2.29 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[68][7]_i_3_0[0]      | CLR_IBUF            |                9 |             32 |         3.56 |
+|  CPU_CLK_BUFG  | CPU/PC/E[0]                      | CLR_IBUF            |               12 |             32 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[25][31]_i_2_0[0] | CLR_IBUF            |               11 |             32 |         2.91 |
+|  CPU_CLK_BUFG  | CPU/PC/Data[32][7]_i_3_1[0]      | CLR_IBUF            |               14 |             32 |         2.29 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[0][31]_i_6_0[0]  | CLR_IBUF            |               16 |             32 |         2.00 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[1][31]_i_2_0[0]  | CLR_IBUF            |               25 |             32 |         1.28 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg_rep[6]_13[0]  | CLR_IBUF            |                8 |             32 |         4.00 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_14[0]      | CLR_IBUF            |               12 |             32 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_15[0]      | CLR_IBUF            |                9 |             32 |         3.56 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_16[0]      | CLR_IBUF            |               14 |             32 |         2.29 |
+|  CPU_CLK_BUFG  | CPU/PC/Reg_Data[24][31]_i_2_0[0] | CLR_IBUF            |               13 |             32 |         2.46 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_24[0]      | CLR_IBUF            |               17 |             32 |         1.88 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_11[0]      | CLR_IBUF            |               14 |             32 |         2.29 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_18[0]      | CLR_IBUF            |               11 |             32 |         2.91 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_28[0]      | CLR_IBUF            |               18 |             32 |         1.78 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_20[0]      | CLR_IBUF            |               13 |             32 |         2.46 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_25[0]      | CLR_IBUF            |               24 |             32 |         1.33 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_26[0]      | CLR_IBUF            |               15 |             32 |         2.13 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_6[0]       | CLR_IBUF            |               10 |             32 |         3.20 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_8[0]       | CLR_IBUF            |               12 |             32 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_27[0]      | CLR_IBUF            |               14 |             32 |         2.29 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_21[0]      | CLR_IBUF            |               15 |             32 |         2.13 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_17[0]      | CLR_IBUF            |               12 |             32 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_13[0]      | CLR_IBUF            |               16 |             32 |         2.00 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_23[0]      | CLR_IBUF            |               10 |             32 |         3.20 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_29[0]      | CLR_IBUF            |               14 |             32 |         2.29 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_30[0]      | CLR_IBUF            |               13 |             32 |         2.46 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg_rep[6]_11[0]  | CLR_IBUF            |               12 |             32 |         2.67 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg[6]_7[0]       | CLR_IBUF            |               13 |             32 |         2.46 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg_rep[6]_12[0]  | CLR_IBUF            |               16 |             32 |         2.00 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg_rep[6]_9[0]   | CLR_IBUF            |               25 |             32 |         1.28 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg_rep[6]_14[0]  | CLR_IBUF            |               13 |             32 |         2.46 |
+|  CPU_CLK_BUFG  | CPU/PC/PC_Addr_reg_rep[6]_10[0]  | CLR_IBUF            |               12 |             32 |         2.67 |
++----------------+----------------------------------+---------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000fs"></ZoomEndTime>
+      <Cursor1Time time="124688fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/CPU_test/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CLR" type="logic">
+      <obj_property name="ElementShortName">CLR</obj_property>
+      <obj_property name="ObjectShortName">CLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/PC_now" type="array">
+      <obj_property name="ElementShortName">PC_now[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_now[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/R_Reg_Addr_A" type="array">
+      <obj_property name="ElementShortName">R_Reg_Addr_A[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Addr_A[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/R_Reg_Addr_B" type="array">
+      <obj_property name="ElementShortName">R_Reg_Addr_B[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Addr_B[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/R_Reg_Data_A" type="array">
+      <obj_property name="ElementShortName">R_Reg_Data_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Data_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/R_Reg_Data_B" type="array">
+      <obj_property name="ElementShortName">R_Reg_Data_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Data_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/new_Addr" type="array">
+      <obj_property name="ElementShortName">new_Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">new_Addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/F" type="array">
+      <obj_property name="ElementShortName">F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/DB" type="array">
+      <obj_property name="ElementShortName">DB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/Reg_Data" type="array">
+      <obj_property name="ElementShortName">Reg_Data[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_Data[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/CLR" type="logic">
+      <obj_property name="ElementShortName">CLR</obj_property>
+      <obj_property name="ObjectShortName">CLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/W_Reg_Ctr" type="logic">
+      <obj_property name="ElementShortName">W_Reg_Ctr</obj_property>
+      <obj_property name="ObjectShortName">W_Reg_Ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/R_Reg_Addr_A" type="array">
+      <obj_property name="ElementShortName">R_Reg_Addr_A[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Addr_A[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/R_Reg_Addr_B" type="array">
+      <obj_property name="ElementShortName">R_Reg_Addr_B[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Addr_B[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/W_Reg_Addr" type="array">
+      <obj_property name="ElementShortName">W_Reg_Addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">W_Reg_Addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/W_Reg_Data" type="array">
+      <obj_property name="ElementShortName">W_Reg_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_Reg_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/R_Reg_Data_A" type="array">
+      <obj_property name="ElementShortName">R_Reg_Data_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Data_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/R_Reg_Data_B" type="array">
+      <obj_property name="ElementShortName">R_Reg_Data_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R_Reg_Data_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Regfile/SIZE" type="array">
+      <obj_property name="ElementShortName">SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_test/CPU_single/Mem/Data" type="array">
+      <obj_property name="ElementShortName">Data[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[0:127][7:0]</obj_property>
+   </wvobject>
+</wave_config>
